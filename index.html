@@ -281,7 +281,7 @@
       <form class="login-form" id="loginForm" novalidate>
         <div class="field">
           <label for="email">Email</label>
-          <input id="email" type="email" autocomplete="username" placeholder="name@company.com" required />
+          <input id="email" type="email" autocomplete="username" placeholder="name@nyati.com" required />
         </div>
         <div class="field">
           <label for="password">Password</label>
@@ -421,43 +421,8 @@
        Passwords are stored only as hashes, never as plain text.
        ============================================================ */
     const USERS = {
-      "srinivas.iyer@company.com": ["Srinivas Iyer", "4278698a7456c8feb6e8475d00e5a4bd60f0d2dabbc3d9829fe3426be5cdcce8"],
-      "anita.kelkar@company.com": ["Anita Kelkar", "e780d96550326555d1ad7e8871adbf4ad3be93e6ae2086e39394fcfb62998c78"],
-      "abhaysinhdhole@company.com": ["Abhaysinh Dhole", "2243aad7f98db15353061b40a4f43ce907bedaa2dff7d2300f6ca7c078dadca1"],
-      "amoldeshmukh@company.com": ["Amol Deshmukh", "05e132f238bd62dcf96fd72fd62da8e53d509d6896d12287b73d5ce466317675"],
-      "pravindaga@company.com": ["Pravin Daga", "dbbbfbbcac262f436107e140d0441984f35f9f2ebade5dc5b6538d3c7df95763"],
-      "deepakpawar@company.com": ["Deepak Pawar", "1cd8c3f5f0352e6854dca0a3a861e89ca6ac40ff1b6d442c00a5e4a0b4b29327"],
-      "sachinshinde@company.com": ["Sachin Shinde", "709941ac6a11ba9a86bd18cd934a3ae1464f6f82ec1361fcc0523e87b34d1d10"],
-      "juned.peerzade@company.com": ["Juned Peerzade", "587741580d560ba28e455f36583ff9fbc0e088986ef56e3bbe125192a43f6581"],
-      "deepakhole@company.com": ["Deepak Hole", "b36cb96f304d6ccdf27aa4b3f8fb1c5603ac916f4fb45221a764eaa603d49b2a"],
-      "prasadtemkar@company.com": ["Prasad Temkar", "6702c9e9f0fcdee675be29e4b98b7fbfa749f17f6567de0b97e90682a7d8dbb6"],
-      "madhavmaral@company.com": ["Madhav Maral", "c789ac809c3b6d48e1af232f8b3ab017a46e71ca1e2721c8c16853ec0cd16120"],
-      "yakshapalrecha@company.com": ["Yaksha Palrecha", "8e9d3ac3855ce50776b45a55e930dd6c650d46796df7c0a09600b67310772fef"],
-      "ashok.patil@company.com": ["Ashok Patil", "c50ec426205daadfb7a8e1d9c4a45e7b7b7540134633e67fa663ea989be01d29"],
-      "deepak.lukade@company.com": ["Deepak Lukade", "f3bfab9da7a5f206cec816c9229c014b9e3e9347ef6b41f2ee2346f4ae366c32"],
-      "dilip.jaysingkar@company.com": ["Dilip Jaysingkar", "09367df62c88cffacfe0683007e1dda69b2144b6b09860d66fdc1ba410f32094"],
-      "sadanand.chavan@company.com": ["Sadanand Chavan", "de79b0deec170b720ad0a7ae3c5e800bc99c288f4f980b9d5b2d40018f323d16"],
-      "ashok.zanjurne@company.com": ["Ashok Zanjurne", "24424a1bf7253e7829e1bd0bb69a36b5086bb4dbbdc206a0d649f110ad8c46ab"],
-      "eknath.chavan@company.com": ["Eknath Chavan", "f3f2f0d1b0aa537a0f1fd6cc1ffb94423ea4e409639f467f5537e0064ef687c2"],
-      "pralhad.chavan@company.com": ["Pralhad Chavan", "d4941e666bbe9e81552e52a2294c79fd2d8376538f283164d3db99b4e04d08e3"],
-      "ananda.bhosale@company.com": ["Ananda Bhosale", "78cff22af067e149a73875549ad4107229ecd0eb8af6d62609a1e584a93e8864"],
-      "prashantkshirsagar@company.com": ["Prashant Kshirsagar", "11e3475b25078085e4eefdbd4a541d6bbae9ca6761168f385e83c938864e45aa"],
-      "vinodjadhav@company.com": ["Vinod Jadhav", "08a5ab924191be6d562f05532f2ec50730c4d4a25350145d3d94d83bdddfcd52"],
-      "omkartodkar@company.com": ["Omkar Todkar", "8df05cceaeda9ba219c3ff090b132e98aab3b71239b735eaa38facb9925b15c7"],
-      "kiranbhangale@company.com": ["Kiran Bhangale", "0ec1643d55056bd3f701153bb48e641d800072da82990a6bb98cbbff95cc7292"],
-      "ds.chohan@company.com": ["Ganesh Dudhani", "6d82ad70813700d4cc6efe3e047d7bf8ae7dbd610e2e9dba5f14af0527023cf2"],
-      "amit.natekar@company.com": ["Pralhad Narhare", "cbee12bce2d011041c57fecc84c0696d0da9a69ca5a644c61c778a8927258724"],
-      "rahul.kankriya@company.com": ["Navnath Marne", "c1230d8226bd58f022941b94ac95d35229cd666a4e30a441acd4f29f73682100"],
-      "shantaram.salunkhe@company.com": ["Sagar Mendhe", "38905fae36882e014c6d222b42d291fb30d9f123e804ec982d3023d9cd032119"],
-      "ganesh.dudhani@company.com": ["Prashant Kolhe", "9088621b8f2c00b2d19357dfe363ce0b946d6d712ec21ee43bd5d0a67370cd5b"],
-      "pralhad.narhare@company.com": ["Ganesh Kharade", "ba56e86ab3523eaec8714b8084f78dafc2f15ab1194c9d88e0ba8bc00d89657c"],
-      "navnath.marne@company.com": ["Sandeep Khandagle", "810d47a34536b4038a104d0f49a4b439be07956e8aa6732668bdb0574e96eb8b"],
-      "sagarmendhe@company.com": ["Angad Gade", "cbd7191a9794dab8557b51c2614ba9e4e6583ed06131ccc171676f67552e357a"],
-      "prashantkolhe@company.com": ["Akash Hingmire", "f2e6da5ed7258d1f5e68a939ea75e77ea6757e4941099a78dc1c682310076fe1"],
-      "ganesh.kharade@company.com": ["D. S. Chohan", "15551aff7755ebf7c6af480b73615a1fbd075986f1bc120aab554560a4d83580"],
-      "sandeepkhandagle@company.com": ["Amit Natekar", "ba612d2a63a9f0fcd5abfd1d0ff8e5361b94afad363d41d0489525e77476e509"],
-      "angadgade@company.com": ["Rahul Kankriya", "19f7c3c3f5a62655d1a270a5e51c2e7cd5154a526fe7b3489e4cf5546e2bcd11"],
-      "akashhingmire@company.com": ["Shantaram Salunkhe", "8e12d2cf2271a077035869def0bf24fc68dae9d15fc551c828a827c369181b3b"]
+      "madhav.oak@nyati.com": ["Madhav Oak", "81392cf1fea9f01a85285117f660fbfc13578350cf956913141007aa2ec01dd3"],
+      "parul.tiwari@nyati.com": ["Parul Tiwari", "edb192b808dd62a42ce0b844709b3bf925dcf47375a7daf48269aebd759dc9f0"]
     };
     const SESSION_KEY = "nyati_cw_session";
 
